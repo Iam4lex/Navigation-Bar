@@ -100,36 +100,6 @@ span{
     rotate: 30deg;
 }
 
-.navbar__menus{
-    position: absolute;
-    list-style: none;
-    text-align: left;
-    width: 150px;
-    background: transparent;
-    /* box-shadow: 0 18px 36px rgba(0, 0, 0, 0.3), 0 14px 11px rgba(0, 0, 0, 0.22); */
-    height: 0;
-    padding: 0 10px;
-    transition: height 1s;
-    overflow: hidden;
-    margin-top: 10px;
-}
-
-#navbar__item:hover .navbar__menus{
-    margin-top: 10px;
-    position: absolute;
-    height: 110px;
-}
-
-.navbar__links{
-    text-decoration: none;
-    margin: 10px;
-    color: #fff;
-    padding-top: 5px;
-}
-
-.navbar__items{
-    margin: 10px;
-}
 
 a:hover{
     color: #009688;
@@ -216,7 +186,7 @@ a:hover{
         transition: all 0.5s ease;
         height: 60vh;
         z-index: -1;
-        background: #131313;
+        background: #091615;
     }
 
     .navbar__menu.active{
